@@ -31,7 +31,7 @@
             }
             formData.append('date', date.toISOString());
 
-            const response = await fetch('http://127.0.0.1:3000/upload', {
+            const response = await fetch('https://datechanger.onrender.com/upload', {
     method: 'POST',
     body: formData
 });
